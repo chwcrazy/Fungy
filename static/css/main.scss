@@ -1,0 +1,152 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+#map-canvas {
+    height: 100%;
+}
+
+@mixin searchtext {
+    border-radius: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* make this a drawer that pulls out on hover */
+#nav-box {
+    color: white;
+    background-color: rgba(9, 17, 139, 0.7);
+    border: 3px solid #09118b;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-left: 12px;
+    position: absolute;
+    right: -8px;
+    top: 120px;
+    width: 330px;
+    text-align: center;
+    -webkit-transition: right 0.4s linear;
+    -moz-transition: right 0.4s linear;
+    transition: right 0.4s linear;
+
+    &.active {
+        right: -312px;
+    }
+
+    img {
+        cursor: pointer;
+        position: absolute;
+        left: 2px;
+        top: 0;
+        display: inline;
+    }
+
+    .header {
+        border-bottom: 3px dotted gray;
+        font-size: 48px;
+        font-weight: bold;
+        margin: 10px auto;
+        width: 83%;
+    }
+
+    h4 {
+        margin-bottom: 10px;
+    }
+
+    #user-message {
+        font-family: 'EB Garamond', serif;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: bold;
+        height: 20px;
+        margin: 10px 0;
+    }
+
+    input {
+        @include searchtext;
+        border-radius: 8px;
+
+        &.filter {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            width: 240px;
+        }
+
+        &.button {
+            cursor: pointer;
+            display: inline;
+            font-weight: bold;
+            margin-top: 15px;
+            padding: 4px 0;
+            width: 70px;
+            text-align: center;
+
+            &:first-child {
+                float: left;
+                padding-right: 3px;
+            }
+        }
+    }
+}
+
+/* Typeahead.js styles */
+.tt-hint, .tt-query {
+    @include searchtext;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    width: 240px;
+}
+
+.tt-dropdown-menu {
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 245px;
+}
+
+.tt-suggestions {
+    @include searchtext;
+    background-color: transparent;
+    border-radius: 8px;
+    color: black;
+    display: block;
+    margin: 0;
+    text-align: left;
+    width: 245px;
+
+    .tt-is-under-cursor {
+        background-color: #d6d4e6;
+    }
+}
+
+.content {
+    border: 1px dotted black;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    padding: 5px 5px 5px 15px;
+    width: 180px;
+    h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    span.em {
+        font-weight: bold;
+    }
+}

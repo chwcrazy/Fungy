@@ -1,0 +1,142 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\000031}}
+html {
+  height: 100%; }
+
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\000035}}
+  body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0; }
+
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\0000312}}
+    #map-canvas {
+      height: 100%; }
+
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\0000323}}
+      #nav-box {
+        color: white;
+        background-color: rgba(192,192,192,0.3);
+        border: 3px solid #09118b;
+        border-right: none;
+        border-radius: 20px 0 0 20px;
+        font-family: 'EB Garamond', serif;
+        font-size: 20px;
+        margin: 0 auto;
+        padding-left: 12px;
+        position: absolute;
+        right: -8px;
+        top: 120px;
+        width: 330px;
+        text-align: center;
+        -webkit-transition: right 0.4s linear;
+        -moz-transition: right 0.4s linear;
+        transition: right 0.4s linear; }
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\0000343}}
+        #nav-box.active {
+          right: -312px; }
+          @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\0000347}}
+          #nav-box img {
+            cursor: pointer;
+            position: absolute;
+            left: 2px;
+            top: 0;
+            display: inline; }
+            @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\0000355}}
+            #nav-box .header {
+              border-bottom: 3px dotted gray;
+              font-size: 48px;
+              font-weight: bold;
+              margin: 10px auto;
+              width: 83%; }
+              @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\0000363}}
+              #nav-box h4 {
+                margin-bottom: 10px; }
+                @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\0000367}}
+                #nav-box #user-message {
+                  font-family: 'EB Garamond', serif;
+                  font-size: 18px;
+                  font-style: italic;
+                  font-weight: bold;
+                  height: 20px;
+                  margin: 10px 0; }
+                  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\0000376}}
+                  #nav-box input {
+                    border-radius: 8px;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 18px;
+                    text-align: left;
+                    border-radius: 8px; }
+                    @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\0000380}}
+                    #nav-box input.filter {
+                      display: block;
+                      margin: 0 auto;
+                      margin-bottom: 10px;
+                      padding: 5px 10px;
+                      width: 240px; }
+                      @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\0000388}}
+                      #nav-box input.button {
+                        cursor: pointer;
+                        display: inline;
+                        font-weight: bold;
+                        margin-top: 15px;
+                        padding: 4px 0;
+                        width: 70px;
+                        text-align: center; }
+                        @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\0000397}}
+                        #nav-box input.button:first-child {
+                          float: left;
+                          padding-right: 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\00003105}}
+.tt-hint, .tt-query {
+  border-radius: 8px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  padding: 5px 10px;
+  width: 240px; }
+
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\00003114}}
+  .tt-dropdown-menu {
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 245px; }
+
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\00003123}}
+    .tt-suggestions {
+      border-radius: 8px;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 18px;
+      text-align: left;
+      background-color: transparent;
+      border-radius: 8px;
+      color: black;
+      display: block;
+      margin: 0;
+      text-align: left;
+      width: 245px; }
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\00003133}}
+      .tt-suggestions .tt-is-under-cursor {
+        background-color: #d6d4e6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\00003138}}
+.content {
+  border: 1px dotted black;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  padding: 5px 5px 5px 15px;
+  width: 180px; }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\00003144}}
+  .content h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold; }
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chenghaowei\/Desktop\/SFMovie\/static\/css\/main\.scss}line{font-family:\00003149}}
+    .content span.em {
+      font-weight: bold; }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>SF Movie</title>
+  <link rel='stylesheet' href="{{ url_for('static', filename='css/css.css') }}">
+  {% assets "scss_main" %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+  {% endassets %}
+</head>
+
+<body>
+  <div id="map-canvas">
+  </div>
+  <div id="nav-box">
+    <img id="cue" src="static/images/transfer.png" alt="star" />
+    <h2 class="header">
+      <font color="purple">SF Movie</font>
+    </h2>
+    
+    <h4>
+      <font color="purple">Find your favorite movie..</font>
+    </h4> 
+    <input class="filter" id="by-title" type="text" placeholder="film title" />
+    <input class="button" id="go" type="button" value="Search" />
+    <div id="user-message"></div>
+  </div>
+
+  <!-- to minify -->
+  <script src="{{ url_for('static', filename='vendor/jquery-2.0.3.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/typeahead.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/underscore-min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/backbone-min.js') }}"></script>
+  <script src="static/js/main.js"></script>
+
+</body>
+</html>
+
